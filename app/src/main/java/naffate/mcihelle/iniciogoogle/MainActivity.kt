@@ -94,7 +94,7 @@ class MainActivity : AppCompatActivity() {
 
             intent.putExtra("name", acct.displayName)
             intent.putExtra("email", acct.email)
-            startActivity(intent)
+
             startActivityForResult(intent, LOG_OUT)
         }
     }
